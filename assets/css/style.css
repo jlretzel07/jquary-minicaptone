@@ -1,0 +1,91 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	background-image: url('../images/bg1.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.character{
+	position: absolute;
+	width: 100px;
+}
+
+#ai{
+	top:200px;
+}
+
+#ai2{
+	top:300px;
+}
+
+#player{
+	top:400px;
+
+}
+
+#ai3{
+	top:500px;
+}
+
+#ai4{
+	top:600px;
+}
+
+
+
+
+
+#img{
+	width:100px;
+	height: 50px;
+}
+
+.start1{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	background-color: yellow;
+	border: 5px solid black;
+	font-size: 25px;
+	position: fixed;
+	right:50px;
+	bottom:180px;
+	box-shadow: 1px 0px 1px 1px white;
+	font-weight: bolder;
+}
+
+.start2{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	background-color: green;
+	border: 5px solid black;
+	font-size: 18px;
+	position: fixed;
+	right:50px;
+	bottom:100px;
+	box-shadow: 1px 0px 1px 1px white;
+	font-weight: bolder;
+}
+
+.start3{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	background-color: red;
+	border: 5px solid black;
+	font-size: 25px;
+	position: fixed;
+	right:50px;
+	bottom:20px;
+	box-shadow: 1px 0px 1px 1px white;
+	font-weight: bolder;
+}
