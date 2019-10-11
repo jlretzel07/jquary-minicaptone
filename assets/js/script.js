@@ -138,9 +138,8 @@ player.character.click(function(){
 	player.playerPos = playerPosition
 	// console.log(player)
 	result()
+
 	setTimeout(player,500)
-
-
 
 })
 
@@ -284,6 +283,9 @@ $("#start3").click(function(){
 const result = () => {
 	if(player.playerPos === 1000){
 		alert('player won!')
+		alert('Congratulations !!!')
+		location.reload();
+
 		return true
 	}
 	if(ai.aiPos === 1000){
